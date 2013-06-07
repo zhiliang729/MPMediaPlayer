@@ -14,6 +14,12 @@
 		C688AD231761A2A800997894 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C688AD221761A2A800997894 /* Default.png */; };
 		C688AD251761A2A800997894 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C688AD241761A2A800997894 /* Default@2x.png */; };
 		C688AD271761A2A800997894 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C688AD261761A2A800997894 /* Default-568h@2x.png */; };
+		C688AD3E1761A35700997894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C688AD341761A35700997894 /* main.m */; };
+		C688AD3F1761A35700997894 /* ZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C688AD361761A35700997894 /* ZLAppDelegate.m */; };
+		C688AD401761A35700997894 /* ZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C688AD391761A35700997894 /* ZLViewController.m */; };
+		C688AD411761A35700997894 /* ZLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C688AD3A1761A35700997894 /* ZLViewController.xib */; };
+		C688AD421761A35700997894 /* LISENSE in Resources */ = {isa = PBXBuildFile; fileRef = C688AD3C1761A35700997894 /* LISENSE */; };
+		C688AD431761A35700997894 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C688AD3D1761A35700997894 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,14 @@
 		C688AD221761A2A800997894 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C688AD241761A2A800997894 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C688AD261761A2A800997894 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C688AD341761A35700997894 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C688AD351761A35700997894 /* ZLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAppDelegate.h; sourceTree = "<group>"; };
+		C688AD361761A35700997894 /* ZLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAppDelegate.m; sourceTree = "<group>"; };
+		C688AD381761A35700997894 /* ZLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLViewController.h; sourceTree = "<group>"; };
+		C688AD391761A35700997894 /* ZLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLViewController.m; sourceTree = "<group>"; };
+		C688AD3A1761A35700997894 /* ZLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLViewController.xib; sourceTree = "<group>"; };
+		C688AD3C1761A35700997894 /* LISENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LISENSE; sourceTree = "<group>"; };
+		C688AD3D1761A35700997894 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,9 @@
 		C688AD161761A2A800997894 /* MPMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C688AD331761A35700997894 /* AppDelegate */,
+				C688AD371761A35700997894 /* Controllers */,
+				C688AD3B1761A35700997894 /* LINSENSE */,
 				C688AD171761A2A800997894 /* Supporting Files */,
 			);
 			path = MPMediaPlayer;
@@ -89,6 +106,35 @@
 				C688AD261761A2A800997894 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C688AD331761A35700997894 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C688AD341761A35700997894 /* main.m */,
+				C688AD351761A35700997894 /* ZLAppDelegate.h */,
+				C688AD361761A35700997894 /* ZLAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C688AD371761A35700997894 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C688AD381761A35700997894 /* ZLViewController.h */,
+				C688AD391761A35700997894 /* ZLViewController.m */,
+				C688AD3A1761A35700997894 /* ZLViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C688AD3B1761A35700997894 /* LINSENSE */ = {
+			isa = PBXGroup;
+			children = (
+				C688AD3C1761A35700997894 /* LISENSE */,
+				C688AD3D1761A35700997894 /* README.md */,
+			);
+			path = LINSENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +193,9 @@
 				C688AD231761A2A800997894 /* Default.png in Resources */,
 				C688AD251761A2A800997894 /* Default@2x.png in Resources */,
 				C688AD271761A2A800997894 /* Default-568h@2x.png in Resources */,
+				C688AD411761A35700997894 /* ZLViewController.xib in Resources */,
+				C688AD421761A35700997894 /* LISENSE in Resources */,
+				C688AD431761A35700997894 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C688AD3E1761A35700997894 /* main.m in Sources */,
+				C688AD3F1761A35700997894 /* ZLAppDelegate.m in Sources */,
+				C688AD401761A35700997894 /* ZLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
